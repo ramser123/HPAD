@@ -1,7 +1,7 @@
 HPAD
 ====
 
-Ejemplos del curso de HPAD
+Ejemplo Simulador 2D para el curso de HPAD
 
 - La Solución se llama Simulador2D. Para abrir el proyecto es necesario tener instalado CUDA 4.2 (ver http://developer.nvidia.com/cuda/cuda-downloads). Y copiar los archivos .rules de CUDA (en una instalación por defecto se encuentran en C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\extras\visual_studio_integration\rules) en la instalación de Visual Studio (por defecto en C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\VCProjectDefaults)
 
