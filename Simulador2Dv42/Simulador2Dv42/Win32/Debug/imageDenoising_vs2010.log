@@ -1,0 +1,15 @@
+﻿Build started 12/09/2012 12:06:45 a.m..
+     1>Project "C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\imageDenoising_vs2010.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32/Debug/imageDenoising.lastbuildstate".
+       CudaClean:
+         cmd.exe /C "C:\Users\DarkNeoBahamut\AppData\Local\Temp\161b7a9155464bca830fdc97e3288ec2.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -I"./" -I"../../common/inc" -I"../../../shared/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MTd  " -o "Win32/Debug/cuda_functions.cu.obj" "C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\cuda_functions.cu" -clean
+         
+         C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -I"./" -I"../../common/inc" -I"../../../shared/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MTd  " -o "Win32/Debug/cuda_functions.cu.obj" "C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\cuda_functions.cu" -clean 
+         Deleting file "Win32/Debug/cuda_functions.cu.deps".
+     1>Done Building Project "C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\imageDenoising_vs2010.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22

@@ -1,0 +1,853 @@
+﻿Build started 12/09/2012 12:27:08 a.m..
+     1>Project "C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\simulator2D_vs2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32/Debug/simulator2D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /I./ /I../../common/inc /I../../../shared/inc /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include" /I. /FIcuda_runtime.h /c "C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\cuda_functions.cu" 
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "AdditionalCompilerOptions".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "AdditionalCompilerOptions".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "AdditionalCompilerOptions".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "AdditionalCompilerOptions".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "AdditionalCompilerOptions".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "AdditionalCompilerOptions".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       CudaBuild:
+         Compiling CUDA source file cuda_functions.cu...
+         cmd.exe /C "C:\Users\DarkNeoBahamut\AppData\Local\Temp\60e0b7e6f9a44f7ab320bff5ece398b9.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -I"./" -I"../../common/inc" -I"../../../shared/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MTd  " -o "Win32/Debug/cuda_functions.cu.obj" "C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\cuda_functions.cu"
+         
+         C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -I"./" -I"../../common/inc" -I"../../../shared/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MTd  " -o "Win32/Debug/cuda_functions.cu.obj" "C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\cuda_functions.cu" 
+         cuda_functions.cu
+     1>C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\shared\inc\shrUtils.h(108): warning C4005: 'MAX' : macro redefinition
+                 c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\simulatorGL.h(42) : see previous definition of 'MAX'
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(160): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(18): warning : variable "g" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(20): warning : variable "a" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(107): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(149): warning : variable "sizeZ" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(148): warning : variable "sizeZ" was declared but never referenced
+         
+         tmpxft_00001140_00000000-5_cuda_functions.compute_20.cudafe1.gpu
+         tmpxft_00001140_00000000-9_cuda_functions.compute_20.cudafe2.gpu
+         cuda_functions.cu
+     1>C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\shared\inc\shrUtils.h(108): warning C4005: 'MAX' : macro redefinition
+                 c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\simulatorGL.h(42) : see previous definition of 'MAX'
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(160): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(18): warning : variable "g" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(20): warning : variable "a" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(107): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(149): warning : variable "sizeZ" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(148): warning : variable "sizeZ" was declared but never referenced
+         
+         tmpxft_00001140_00000000-3_cuda_functions.compute_10.cudafe1.gpu
+         tmpxft_00001140_00000000-13_cuda_functions.compute_10.cudafe2.gpu
+         cuda_functions.cu
+     1>C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\shared\inc\shrUtils.h(108): warning C4005: 'MAX' : macro redefinition
+                 c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\simulatorGL.h(42) : see previous definition of 'MAX'
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(160): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(18): warning : variable "g" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(20): warning : variable "a" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(107): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(149): warning : variable "sizeZ" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(148): warning : variable "sizeZ" was declared but never referenced
+         
+         tmpxft_00001140_00000000-0_cuda_functions.compute_30.cudafe1.gpu
+         tmpxft_00001140_00000000-17_cuda_functions.compute_30.cudafe2.gpu
+         cuda_functions.cu
+     1>C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\shared\inc\shrUtils.h(108): warning C4005: 'MAX' : macro redefinition
+                 c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\simulatorGL.h(42) : see previous definition of 'MAX'
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(160): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(18): warning : variable "g" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(20): warning : variable "a" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(107): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(149): warning : variable "sizeZ" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(148): warning : variable "sizeZ" was declared but never referenced
+         
+         cuda_functions.cu
+     1>C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\shared\inc\shrUtils.h(108): warning C4005: 'MAX' : macro redefinition
+                 c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\simulatorGL.h(42) : see previous definition of 'MAX'
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(160): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(18): warning : variable "g" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(20): warning : variable "a" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(107): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(149): warning : variable "sizeZ" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(148): warning : variable "sizeZ" was declared but never referenced
+         
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(201): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(202): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(215): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(216): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(216): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(217): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(219): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(220): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(220): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(221): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(99): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(100): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(245): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(246): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(99): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(100): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(99): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(100): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(323): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(324): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(99): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(100): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(142): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(142): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(360): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(361): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(99): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(100): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(142): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(142): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(99): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(100): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(142): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(142): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(142): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(142): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(111): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(112): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(114): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(115): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(117): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(118): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(322): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(323): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(99): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(100): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(141): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(141): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(359): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(360): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(99): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(100): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(141): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(141): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(99): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(100): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(141): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(141): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(141): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(141): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(265): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(275): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(282): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(283): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(284): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(285): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(287): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(288): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(290): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(291): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(294): warning : Cannot tell what pointer points to, assuming global memory space
+         cuda_functions.cu
+     1>C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\shared\inc\shrUtils.h(108): warning C4005: 'MAX' : macro redefinition
+                 c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\simulatorGL.h(42) : see previous definition of 'MAX'
+     1>C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.2/C/src/Simulador2Dv42/cuda_functions.cu(160): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(18): warning : variable "g" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian_kernel.cu(20): warning : variable "a" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(107): warning : statement is unreachable
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle_kernel.cu(149): warning : variable "sizeZ" was declared but never referenced
+         
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio_kernel.cu(148): warning : variable "sizeZ" was declared but never referenced
+         
+         tmpxft_00001140_00000000-5_cuda_functions.compute_20.cudafe1.cpp
+         tmpxft_00001140_00000000-29_cuda_functions.compute_20.ii
+         Note: including windows.h
+         Note: including math.h
+         Note: including assert.h
+       CudaBuild:
+         Skipping CUDA source file cuPrintf.cu (excluded from build).
+       CudaBuild:
+         Skipping CUDA source file loadImage_kernel.cu (excluded from build).
+       CudaBuild:
+         Skipping CUDA source file pedestrian_kernel.cu (excluded from build).
+       CudaBuild:
+         Skipping CUDA source file transmilenio_kernel.cu (excluded from build).
+       CudaBuild:
+         Skipping CUDA source file vehicle_kernel.cu (excluded from build).
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /I../../common/inc /I../../../shared/inc /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32/Debug/" /Fd"Win32/Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\common\src\rendercheck_gl.cpp bmploader.cpp Coordinate.cpp Mobile.cpp MobileManager.cpp Pedestrian.cpp simulatorGL.cpp Transmilenio.cpp Vehicle.cpp Zone.cpp
+         Zone.cpp
+         Vehicle.cpp
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle.cpp(39): warning C4552: '<' : operator has no effect; expected operator with side-effect
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle.cpp(142): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle.cpp(149): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle.cpp(185): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle.cpp(185): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle.cpp(329): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle.cpp(333): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle.cpp(347): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\vehicle.cpp(348): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Transmilenio.cpp
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio.cpp(38): warning C4552: '<' : operator has no effect; expected operator with side-effect
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio.cpp(139): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio.cpp(146): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio.cpp(182): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio.cpp(182): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio.cpp(329): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio.cpp(333): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio.cpp(347): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\transmilenio.cpp(348): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         simulatorGL.cpp
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\common\inc\rendercheck_gl.h(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Note: including windows.h
+         Note: including math.h
+         Note: including assert.h
+         Note: including time.h
+         Pedestrian.cpp
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian.cpp(127): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian.cpp(134): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian.cpp(182): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\pedestrian.cpp(182): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         MobileManager.cpp
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\mobilemanager.cpp(510): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\mobilemanager.cpp(632): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Mobile.cpp
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\mobile.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\mobile.cpp(125): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\mobile.cpp(144): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\mobile.cpp(274): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\mobile.cpp(275): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\programdata\nvidia corporation\nvidia gpu computing sdk 4.2\c\src\simulador2dv42\mobile.cpp(285): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Coordinate.cpp
+         bmploader.cpp
+         rendercheck_gl.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win32/Debug//simulator2D.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib\Win32" /LIBPATH:../../common/lib/Win32 /LIBPATH:../../../shared/lib/Win32 cudart.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/Debug/simulator2D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\bin\win32\Debug\simulator2D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win32/Debug/simulator2D.lib" /MACHINE:X86 Win32/Debug/cuda_functions.cu.obj
+         Win32/Debug/rendercheck_gl.obj
+         Win32/Debug/bmploader.obj
+         Win32/Debug/Coordinate.obj
+         Win32/Debug/Mobile.obj
+         Win32/Debug/MobileManager.obj
+         Win32/Debug/Pedestrian.obj
+         Win32/Debug/simulatorGL.obj
+         Win32/Debug/Transmilenio.obj
+         Win32/Debug/Vehicle.obj
+         Win32/Debug/Zone.obj
+         simulator2D_vs2010.vcxproj -> C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\../../bin/win32/Debug/simulator2D.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/win32/Debug//simulator2D.exe;#1" /manifest Win32/Debug/simulator2D.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32/Debug/simulator2D.unsuccessfulbuild".
+         Touching "Win32/Debug/simulator2D.lastbuildstate".
+     1>Done Building Project "C:\ProgramData\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.2\C\src\Simulador2Dv42\simulator2D_vs2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.43

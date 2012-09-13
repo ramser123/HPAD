@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Coordinate.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Mobile.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MobileManager.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Pedestrian.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Transmilenio.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="simulatorGL.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="bmploader.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\src\rendercheck_gl.cpp">
+      <Filter>renderCheck</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Coordinate.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Mobile.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MobileManager.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Pedestrian.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Transmilenio.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="simulatorGL.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\inc\rendercheck_gl.h">
+      <Filter>renderCheck</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cuda_functions.cu">
+      <Filter>src\cudaKernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="loadImage_kernel.cu">
+      <Filter>src\cudaKernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="pedestrian_kernel.cu">
+      <Filter>src\cudaKernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="transmilenio_kernel.cu">
+      <Filter>src\cudaKernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="vehicle_kernel.cu">
+      <Filter>src\cudaKernel</Filter>
+    </CudaCompile>
+    <CudaCompile Include="cuPrintf.cu">
+      <Filter>utils\cudaPrint</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{df8981b6-422d-408e-918f-871442a44c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="properties">
+      <UniqueIdentifier>{5c6cbd3c-fa92-4d3a-9bc7-3d38ece9179f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2e293125-c9ab-40a3-910f-11d82459cc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{85816009-5979-4788-88c2-25a11132f58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity">
+      <UniqueIdentifier>{a244b7b3-92b3-45b3-acb7-885ab7770af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cudaKernel">
+      <UniqueIdentifier>{13e0b0b9-6eb5-4a7d-afc7-e4480020a782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\cudaPrint">
+      <UniqueIdentifier>{0140e979-8082-4934-b132-71157ed7fd62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderCheck">
+      <UniqueIdentifier>{c1339c8c-b1b7-4507-b54e-922a73c2c1c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\texture_map.bmp">
+      <Filter>data</Filter>
+    </None>
+    <None Include="prop\TRAFFIC_GOAL.properties">
+      <Filter>properties</Filter>
+    </None>
+    <None Include="prop\TRANSMILENIO_GOAL.properties">
+      <Filter>properties</Filter>
+    </None>
+    <None Include="prop\USER_GOAL.properties">
+      <Filter>properties</Filter>
+    </None>
+    <None Include="SIMULATOR.properties">
+      <Filter>properties</Filter>
+    </None>
+    <None Include="cuPrintf.cuh">
+      <Filter>utils\cudaPrint</Filter>
+    </None>
+  </ItemGroup>
+</Project>
